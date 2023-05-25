@@ -39,6 +39,7 @@ $result=mysqli_query($conn,"SELECT * FROM tb_sinhvien");
 
 <body id="page-top">
      <div class="card-body">
+		<h1>Danh sách sinh viên</h1>
 		<div class="table-responsive">
 			<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 				<thead>
@@ -64,6 +65,8 @@ $result=mysqli_query($conn,"SELECT * FROM tb_sinhvien");
 				  
 				</tbody>
 			</table>
+			<a href="update.html">Thêm</a>
+			<br/>
             <a href="logout.php">Logout</a>
 		</div>
 	</div>
